@@ -1,0 +1,83 @@
+.main-content {
+  display: grid;
+}
+.photo {
+  width: 100%;
+  background: linear-gradient(0deg, #6db8ff, transparent);
+}
+.photo-container {
+  padding-top: 100px;
+  margin-bottom: 30px;
+}
+.text-container {
+  text-align: center;
+}
+.welcome {
+  position: relative;
+  color: #0e3742;
+  width: 100%;
+  text-align: center;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+  outline: none;
+  animation: animate 6s linear infinite;
+}
+.welcome1 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+  outline: none;
+}
+
+@media (min-width: 576px) {
+  .photo {
+    width: 90%;
+  }
+}
+@media (min-width: 576px) {
+  .photo {
+    width: 400px;
+  }
+}
+@media (min-width: 768px) {
+  .photo {
+    width: 400px;
+  }
+}
+@media (min-width: 930px) {
+  .main-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .photo {
+    width: 350px;
+  }
+}
+@media (min-width: 1200px) {
+  .photo {
+    width: 400px;
+  }
+}
+
+@keyframes animate {
+  0%,
+  5%,
+  17%,
+  20%,
+  60.2% {
+    color: #0e3742;
+    text-shadow: none;
+  }
+
+  3%,
+  17.2%,
+  20.1%,
+  30%,
+  60%,
+  62%,
+  100% {
+    color: #ffffff;
+    text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4,
+      0 0 60px #03bcf4, 0 0 160px #03bcf4;
+  }
+}

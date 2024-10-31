@@ -1,0 +1,33 @@
+.li::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  margin: auto;
+  box-shadow: 0 0 10px rgb(41, 168, 241);
+  transition: all 0.5s ease-out;
+}
+.li:hover::after {
+  width: 100%;
+  background-color: rgb(0, 174, 255);
+}
+.nav-contend-lg {
+  display: none;
+}
+.li .active {
+  border-bottom: 2px solid rgb(41, 168, 241);
+}
+
+@media (min-width: 576px) {
+  .nav-contend-lg {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .nav-contend-lg {
+    display: block;
+  }
+  .nav-contend-sm {
+    display: none;
+  }
+}

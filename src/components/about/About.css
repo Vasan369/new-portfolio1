@@ -1,0 +1,9 @@
+.main-container1 {
+  width: 97%;
+  border-radius: 35px;
+}
+@media (min-width: 576px) {
+  .main-container1 {
+    width: 88%;
+  }
+}
