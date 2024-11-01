@@ -22,7 +22,7 @@ const Mainbody = () => {
         <div className="main-body py-10" id="profile">
             <div className="main-content w-10/12 mx-auto h-full">
                 <div className="photo-container flex items-center justify-center">
-                    <img src={assets.photo} alt="" className="photo rounded-3xl mx-auto" />
+                    <img src={assets.photo} alt="" className=" photo rounded-3xl mx-auto" />
                 </div>
                 <div className="text-container w-11/12 mx-auto flex items-center justify-center">
                     <div>
@@ -31,7 +31,7 @@ const Mainbody = () => {
                         </h3>
                         <h2 className={`${themeButton ? 'welcome' : 'welcome1'} text-2xl font-bold md:text-3xl md:font-bold  text-gray-800 mb-8`}>
                             <TypeAnimation
-                                sequence={[500, 'Full Stack Developer', 1000, 'Frontend, ', 1000, 'Backend and', 1000, 'MERN Stack', 1000]}
+                                sequence={[500, 'Full Stack Developer', 1000, 'Frontend and ', 1000, 'Backend ', 1000]}
                                 repeat={Infinity}
                             />
                         </h2>
@@ -42,7 +42,7 @@ const Mainbody = () => {
                                 Resume <FiDownload />
                             </a>
 
-                            <a href="https://github.com/Vasan369/new-portfolio1.git" target="_blank" className="text-4xl dark:text-gray-300"><FaGithub /></a>
+                            <a href="https://github.com/Vasan369/new-portfolio1.git" className="text-4xl dark:text-gray-300"><FaGithub /></a>
                             <a href="https://www.linkedin.com/in/vasanth001/" target="_blank" className="text-4xl dark:text-gray-300"><FaLinkedin /></a>
                             <button className="fixed shadow-lg rounded-full top-24 right-8 text-3xl" onClick={() => { theme() }}>{themeButton ? <IoSunny className="dark:text-white" /> : <GiMoon />}</button>
                         </div>
