@@ -96,7 +96,7 @@ function Skills() {
                                         <ProgressBar width={70} prevWidth={prevWidth} />
                                     </>
                                 )}
-                                {activeSection === 'Other' && (
+                                {activeSection === 'Tools' && (
                                     <>
                                         <div className="flex justify-between items-center text-xl mb-2">
                                             <span>Git & Github</span>
@@ -138,10 +138,10 @@ function Skills() {
                                 Frameworks
                             </button>
                             <button
-                                onClick={() => handleButtonClick('Other', 90)}
+                                onClick={() => handleButtonClick('Tools', 90)}
                                 className="buttons shadow-xl active:shadow-md"
                             >
-                                Other
+                                Tools
                             </button>
                         </div>
                     </div>
