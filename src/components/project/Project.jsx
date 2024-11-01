@@ -63,8 +63,8 @@ function Project() {
     };
 
     return (
-        <div id='project' className="text-gray-900 h-screen project w-full flex items-center justify-center">
-            <div className={` p-6 rounded-lg shadow-2xl text-center dark:bg-blue-gray-50 ${isOpen ? 'w-[340px] md:w-[360px] h-[470px]' : 'w-[300px] md:w-[330px] h-[450px]'} relative transition-all duration-500 ease-in-out`}>
+        <div className="text-gray-900 h-screen project w-full flex items-center justify-center">
+            <div id='project' className={` p-6 rounded-2xl shadow-2xl text-center dark:bg-blue-gray-50 ${isOpen ? 'w-[340px] md:w-[360px] h-[470px]' : 'w-[300px] md:w-[330px] h-[450px]'} relative transition-all duration-500 ease-in-out`}>
                 {isOpen && (
                     <button className="absolute top-1 right-1 text-3xl text-red-500 rounded-full shadow-lg" onClick={toggleOpen}>
                         <IoCloseCircle />
