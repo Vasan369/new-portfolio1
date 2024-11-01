@@ -84,7 +84,7 @@ const Navbar = () => {
                                     <Link to="project"
                                         spy={true}
                                         smooth={true}
-                                        offset={-30}
+                                        offset={-110}
                                         duration={500} onClick={handleClick} className="cursor-pointer mob-it flex gap-1 items-center"><GoProjectRoadmap className='text-xl' />Projects</Link>
                                     <Link to="about"
                                         spy={true}
@@ -131,7 +131,7 @@ const Navbar = () => {
                             <Link to="project"
                                 spy={true}
                                 smooth={true}
-                                offset={-30}
+                                offset={-110}
                                 duration={500} className="cursor-pointer flex items-center gap-1">
                                 <GoProjectRoadmap className='text-xl' />
                                 Project
