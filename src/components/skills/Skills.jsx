@@ -55,11 +55,6 @@ function Skills() {
                                             <span>85%</span>
                                         </div>
                                         <ProgressBar width={85} prevWidth={prevWidth} />
-                                        <div className="flex justify-between items-center text-xl mb-2">
-                                            <span>C & C++</span>
-                                            <span>80%</span>
-                                        </div>
-                                        <ProgressBar width={80} prevWidth={prevWidth} />
                                     </>
                                 )}
                                 {activeSection === 'Frameworks' && (
@@ -79,6 +74,12 @@ function Skills() {
                                             <span>60%</span>
                                         </div>
                                         <ProgressBar width={60} prevWidth={prevWidth} />
+
+                                        <div className="flex justify-between items-center text-xl mb-2">
+                                            <span>Tailwind CSS</span>
+                                            <span>80%</span>
+                                        </div>
+                                        <ProgressBar width={80} prevWidth={prevWidth} />
                                     </>
                                 )}
                                 {activeSection === 'Database' && (
@@ -98,15 +99,10 @@ function Skills() {
                                 {activeSection === 'Other' && (
                                     <>
                                         <div className="flex justify-between items-center text-xl mb-2">
-                                            <span>Git</span>
+                                            <span>Git & Github</span>
                                             <span>80%</span>
                                         </div>
                                         <ProgressBar width={80} prevWidth={prevWidth} />
-                                        <div className="flex justify-between items-center text-xl mb-2">
-                                            <span>Excel</span>
-                                            <span>70%</span>
-                                        </div>
-                                        <ProgressBar width={70} prevWidth={prevWidth} />
 
                                     </>
                                 )}
