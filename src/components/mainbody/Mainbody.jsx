@@ -44,7 +44,7 @@ const Mainbody = () => {
 
                             <a href="https://github.com/Vasan369/new-portfolio1.git" className="text-4xl dark:text-gray-300"><FaGithub /></a>
                             <a href="https://www.linkedin.com/in/vasanth001/" target="_blank" className="text-4xl dark:text-gray-300"><FaLinkedin /></a>
-                            <button className="fixed shadow-lg rounded-full top-24 right-8 text-3xl" onClick={() => { theme() }}>{themeButton ? <IoSunny className="dark:text-white" /> : <GiMoon />}</button>
+                            <button className="fixed shadow-lg rounded-full top-24 right-8 text-3xl z-20" onClick={() => { theme() }}>{themeButton ? <IoSunny className="dark:text-white" /> : <GiMoon />}</button>
                         </div>
 
                     </div>
